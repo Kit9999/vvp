@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int a, b, s, p;
+    printf("enter:");
+    scanf("%d%d", &a, &b);
+    printf("p=%d;s=%d\n \n ", (a + b) * 2, a * b);
+
+
+    return 0;
+}
