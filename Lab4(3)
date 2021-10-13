@@ -1,13 +1,12 @@
-#include <stdio.h>
+#include <stdio.h> 
 #include <math.h>
 
-int main()
-{
+int main() {
+
    float r,a,b;
    printf("ввод чисел:");
-   scanf("%f%f", &a,&b);
-   printf("l=%.2f\n", pi*d);
+   scanf("%f%f", &a,&b); printf("r=%.2f\n", (a+b)/2);
    
 
-    return 0;
+   return 0;
 }
