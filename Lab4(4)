@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int a,b,s,r,p;
+   float ch;
+   printf("ввод чисел:");
+   scanf("%d%d", &a,&b);
+   s=a*a+b*b;
+   r=a*a-b*b;
+   p=a*a*b*b;
+   ch=a*a/b*b;
+   printf("%d\n%d\n%d\n\n%.2f\n",s,r,p,ch);
+   
+
+    return 0;
+}
