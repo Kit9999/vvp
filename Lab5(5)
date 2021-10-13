@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+    int a, b;
+    float s, r, p, ch;
+    printf("ввод чисел");
+    scanf("%d%d", &a, &b);
+    s = abs(a) + abs(b);
+    r = abs(a) - abs(b);
+    p = abs(a) * abs(b);
+    ch = abs(a) / abs(b);
+    printf("%f\n%f\n%f\n%.2f\n", s, r, p, ch);
+
+    return 0;
+}
